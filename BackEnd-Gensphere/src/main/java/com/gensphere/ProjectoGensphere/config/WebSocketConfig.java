@@ -15,7 +15,7 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
 @Configuration
 @EnableWebSocketMessageBroker
-//@CrossOrigin(origins="*")
+@CrossOrigin(origins="*")
 public class WebSocketConfig implements WebSocketMessageBrokerConfigurer{
 
     @Override
