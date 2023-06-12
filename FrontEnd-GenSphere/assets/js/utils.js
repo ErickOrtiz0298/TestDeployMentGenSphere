@@ -289,7 +289,7 @@ function sendUserToApi(currentUser) {
   console.log(currentUser)
   $.ajax({
     // url: "http://localhost:8080/api/save",
-    url: "https://51a4-200-68-187-97.ngrok-free.app/api/save",
+    url: "testgensphere.up.railway.app/api/save",
     headers: {
       'ngrok-skip-browser-warning': 'true'
     },
@@ -312,7 +312,7 @@ function userSignUpApi(currentUser) {
 
   $.ajax({
     // url: "http://localhost:8080/api/save",
-    url: "https://51a4-200-68-187-97.ngrok-free.app/api/save",
+    url: "testgensphere.up.railway.app/api/save",
     headers: {
       'ngrok-skip-browser-warning': 'true'
     },
@@ -342,7 +342,7 @@ function userSignInApi(userEmail, userPassword) {
 
   $.ajax({
     // url: `http://localhost:8080/api/email/${userEmail}`,
-    url: `https://51a4-200-68-187-97.ngrok-free.app/api/email/${userEmail}`,
+    url: `testgensphere.up.railway.app/api/email/${userEmail}`,
     headers: {
       'ngrok-skip-browser-warning': 'true'
     },
@@ -376,7 +376,7 @@ function updateUserInfoInApi(currentUser) {
 
   $.ajax({
     // url: `http://localhost:8080/api/update/${currentUser.userEmail}`,
-    url: `https://51a4-200-68-187-97.ngrok-free.app/api/update/${currentUser.userEmail}`,
+    url: `testgensphere.up.railway.app/api/update/${currentUser.userEmail}`,
     contentType: "application/json",
     headers: {
       'ngrok-skip-browser-warning': 'true'
@@ -417,7 +417,7 @@ function getFriendProfile(userEmail) {
 
   $.ajax({
     // url: `http://localhost:8080/api/email/${userEmail}`,
-    url: `https://51a4-200-68-187-97.ngrok-free.app/api/email/${userEmail}`,
+    url: `testgensphere.up.railway.app/api/email/${userEmail}`,
     headers: {
       'ngrok-skip-browser-warning': 'true'
     },
