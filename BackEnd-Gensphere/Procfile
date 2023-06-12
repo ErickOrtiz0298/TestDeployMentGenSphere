@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -jar target/BackEnd-Gensphere-0.0.1-SNAPSHOT.jar
+web: java -Dserver.port=$PORT -jar target/ProjectoGensphere-0.0.1-SNAPSHOT.jar
