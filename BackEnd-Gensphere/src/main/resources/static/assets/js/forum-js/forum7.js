@@ -38,8 +38,8 @@ var stompClient = null;
 function connect() {
     username_connect = userName
     if(username_connect) {
-        var socket = new SockJS('wss://testgensphere.up.railway.app/websocket');
-        //var socket = new SockJS('https://testgensphere.up.railway.app/websocket');
+        //var socket = new SockJS('wss://testgensphere.up.railway.app/websocket');
+        var socket = new SockJS('https://testgensphere.up.railway.app/websocket');
         stompClient = Stomp.over(socket);
 
         stompClient.connect({}, onConnected, onError);
